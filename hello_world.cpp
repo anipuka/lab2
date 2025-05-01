@@ -1,5 +1,10 @@
-include <iostream>
+#include <iostream>
+#include <string>
 using namespace std;
 int main() {
-cout << "Hello world!";
+   string name;
+   cout << "Введите ваше имя: ";
+   cin >> name;
+   cout << "Hello, world from @" << name << endl;
+   return 0;
 }
